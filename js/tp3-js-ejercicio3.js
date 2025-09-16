@@ -5,7 +5,10 @@ const apariciones = new Array(13).fill(0)
 for (let i = 1; i <= 50; i++) {
     const dado1 = Math.floor(Math.random() * 6 + 1);
     const dado2 = Math.floor(Math.random() * 6 + 1);
-    // const dado2 = Math.floor(Math.random() * (6 - 1) + 1)
+
+
+//   console.log( Math.floor(Math.random() * (Math.floor(6) -  Math.ceil(1) + 1) +  Math.ceil(1)))
+
     sumaDados = dado1 + dado2
     
     // Registrar aparición

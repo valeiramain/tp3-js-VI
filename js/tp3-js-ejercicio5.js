@@ -6,7 +6,7 @@ function mayusculaOMinuscula(cadena) {
     } else if (cadena === cadena.toLowerCase()) {
         document.writeln(`<p>La cadena: "${cadena}" está formada solo por minúsculas.</p>`);
     } else {
-        document.writeln(`<p>La cadena: "${cadena}" contiene una mezcla de mayúsculas y minúsculas.</p>`);
+        document.writeln(`<p>La cadena: "${cadena}" contiene una mezcla de MAYÚSCULAS y minúsculas.</p>`);
     }
 }
 
